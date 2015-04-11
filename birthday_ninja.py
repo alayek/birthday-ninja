@@ -2,7 +2,7 @@ import requests
 import json
 import random
 
-TOKEN = 'CAACEdEose0cBAORIgM1YVxZCFUO2bh85lODxnF5R8UXaY5Fy9zqa9vJ1YcXMfBjU8gIHZAxZB3RprJ2v777UYKD4WOZCZCRxssoZBbKnNSfatZAJ7Q5Rapo9WLlKi1pqFnHRFhZAHtlfBxZB9pdL2LCJiG4utZADuoe4F8WCYGyIA4Gx4gNjXV4TZAA9ZCs9s6GdrsUjdF4C5881fir36SqAZAo6IuWK0T5wMcVntrqM1wIeGXwZDZD'
+TOKEN = $FACEBOOK_ACCESS_TOKEN
 
 comment_list = ['Thanks :)', 'Thank you so much :D', 'thanx', 'Thanks for making my day special! :)', 'Thanks a bunch! How are you doing these days?']
 
