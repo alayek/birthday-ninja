@@ -4,7 +4,7 @@ import random
 
 TOKEN = $FACEBOOK_ACCESS_TOKEN
 
-comment_list = ['Thanks :)', 'Thank you so much :D', 'thanx', 'Thanks for making my day special! :)', 'Thanks a bunch! How are you doing these days?']
+comment_list = ['Thanks :)', 'Thank you so much :D', 'Thanx :)', 'Thanks for making my day special! :)', 'Thanks a bunch!', 'Thanks so much. Hope you are doing great :)']
 
 def get_birthday_feed():
   # Facebook graph API returns only 25 links at once.
@@ -40,6 +40,6 @@ def get_birthday_feed():
     init_url = result['paging']['next']
 
 # execute main
-if __name__ = '__main__':
+if __name__ == '__main__':
   get_birthday_feed()
  
