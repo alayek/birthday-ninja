@@ -39,4 +39,7 @@ def get_birthday_feed():
     # get next set of data
     init_url = result['paging']['next']
 
-get_birthday_feed()
+# execute main
+if __name__ = '__main__':
+  get_birthday_feed()
+ 
